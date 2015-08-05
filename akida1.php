@@ -1,3 +1,11 @@
+<html>
+<head>
+<title>Изучение религии Ислам</title>
+<link rel="stylesheet" type="text\css" href="style.css" />
+</head>
+
+<body>
+
 <?php
 include("db.php");
 
@@ -23,3 +31,6 @@ while ($row = $result->fetch_assoc())
 $result->close();
 $mysqli->close();
 ?>
+
+</body>
+</html>
